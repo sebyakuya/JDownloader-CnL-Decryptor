@@ -4,7 +4,9 @@ Utility to decrypt messages encrypted by the C'n'L component of JDownloader
 
 ## Usage
 
+```
 python jdCnLDecryptor.py --b64=<base64> [--jdkey=<jdkey>]
+```
 --b64 : base64 data to decrypt
 --jdkey : optional jdkey. Using default JDownloader key by default
 Showing example of decryption from https://jdownloader.org/knowledge/wiki/glossary/cnl2
