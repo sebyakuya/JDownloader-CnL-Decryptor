@@ -13,8 +13,16 @@ python jdCnLDecryptor.py --b64=<base64> [--jdkey=<jdkey>]
 
 Showing example of decryption from https://jdownloader.org/knowledge/wiki/glossary/cnl2
 
+![](img.png)
+
 Data: DRurBGEf2ntP7Z0WDkMP8e1ZeK7PswJGeBHCg4zEYXZSE3Qqxsbi5EF1KosgkKQ9SL8qOOUAI+eDPFypAtQS9A==
 
 Using default jdkey: 1234567890987654
 
 Result: http://rapidshare.com/files/285626259/jDownloader.dmg
+
+## Requirements
+
+```
+pycrypto 2.6.1
+```
