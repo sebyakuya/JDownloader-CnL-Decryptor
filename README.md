@@ -24,5 +24,5 @@ Result: http://rapidshare.com/files/285626259/jDownloader.dmg
 ## Requirements
 
 ```
-pycrypto 2.6.1
+pycryptodome 3.19.0
 ```

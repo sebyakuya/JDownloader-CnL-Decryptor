@@ -35,7 +35,7 @@ def main():
                 assert False, "unhandled option"
 
     datab64 = "DRurBGEf2ntP7Z0WDkMP8e1ZeK7PswJGeBHCg4zEYXZSE3Qqxsbi5EF1KosgkKQ9SL8qOOUAI+eDPFypAtQS9A=="
-    key = '\x31\x32\x33\x34\x35\x36\x37\x38\x39\x30\x39\x38\x37\x36\x35\x34'
+    key = b'\x31\x32\x33\x34\x35\x36\x37\x38\x39\x30\x39\x38\x37\x36\x35\x34'
 
     if b64 is not None:
         datab64 = b64
